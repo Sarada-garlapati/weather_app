@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:#06d6a0;
+}
+.heading {
+    color: #ff006e;
+    text-align: center;
+    margin-top:40px;
+}
+.card{
+    width:90%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 20px auto 0;
+    border-radius: 20px;
+    padding: 10px 10px;
+    text-align: center;
+    box-shadow: 0 0  30px   #fe5d9f;
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 10px;
+    height: 40px;
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 16px;
+    margin-top: 26px;
+}
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 26px;
+
+}
+.search button img{
+    width: 15px;
+}
+.weather-icon{
+    width:170px;
+    margin-top: 10px;
+}
+.desc h2{
+  font-size:20px ;
+  font-weight:50px;
+}
+.weather h1{
+    font-size: 45px;
+    font-weight: 500;
+
+}
+.weather h2{
+    font-size: 25px;
+    font-weight: 400;
+
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;   
+}
+.col img{
+    width: 30px;
+    margin-right: 10px;
+}
+.humidity{
+    font-size: 18px;
+    margin-top:-6px ;
+}
+.wind{
+    font-size: 16px;
+    margin-top:-6px ;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    margin-top: 10px;
+    display: none;
+}
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0,5vmin;
+    flex-direction: column;
+  
+}
+.footer h3{
+	color:#ff006e;
+	
+}
